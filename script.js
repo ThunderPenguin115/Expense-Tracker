@@ -42,9 +42,8 @@ function displayExpenses() {
         
         `;
     }
-    html += `
-            <p class="total-amount"> Total: $${total}</p>
-    
+    document.getElementById("total").innerHTML = `
+        Total: $${total}
     `;
     console.log(html);
     output.innerHTML = html;
