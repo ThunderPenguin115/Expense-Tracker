@@ -10,7 +10,7 @@
     <h1>Expense Tracker</h1>
     <div class="container">
         <input placeholder="Expense Name" id="nameInput">
-        <input placeholder="Amount" id="amountInput">
+        <input type="number" placeholder="Amount" id="amountInput">
         <select id="category">
             <option value="Food">Food</option>
             <option value="Transport">Transportation</option>
@@ -25,10 +25,9 @@
             <th>Category</th>
             <th>Action</th>
         </table>
+        <p id="total" class="total-amount">Total: $0</p>
         </div>
-        <div class="total-amount">
-            <p></p>
-        </div>
+
     </div>
     <script src="script.js"></script>
 </body>
